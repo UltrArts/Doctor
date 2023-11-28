@@ -22,8 +22,8 @@
             <input type="password" class="form-control" id="password" name="password" placeholder="Digite a senha da clínica:" required>
         </div>
         <div class="col-lg-7 mx-auto mb-3">
-            <label for="cnpj" class="form-label">CNPJ:</label>
-            <input type="text" class="form-control" id="cnpj" name="cnpj" placeholder="Digite o CNPJ da clínica:" required>
+            <label for="cnpj" class="form-label">LICENÇA:</label>
+            <input type="text" class="form-control" id="cnpj" name="cnpj" placeholder="Digite o Liença da clínica:" required>
         </div>
         <div class="col-lg-7 mx-auto mb-3">
             <label for="telefone" class="form-label"><Table>Telefone:</Table></label>
@@ -34,8 +34,8 @@
             <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Digite o endereço da clínica:" required>
         </div>
         <div class="col-lg-7 mx-auto mb-3">
-            <label for="cep" class="form-label">CEP:</label>
-            <input type="text" class="form-control" id="cep" name="cep" placeholder="Digite o CEP da clínica:" required>
+            <label for="cep" class="form-label">Caixa Postal:</label>
+            <input type="text" class="form-control" id="cep" name="cep" placeholder="Digite o Caixa Postal   da clínica:" required>
         </div>
         <div class="col-lg-7 mx-auto mb-3">
             <label for="descricao" class="form-label">Descrição:</label>

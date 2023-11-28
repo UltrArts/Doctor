@@ -25,6 +25,8 @@ class DoctorClinicsController extends Controller
     {
         $dados = $request->except('_token');
 
+        // dd($dados);
+
         DoctorClinics::create($dados);
  
         return redirect('/doctors');

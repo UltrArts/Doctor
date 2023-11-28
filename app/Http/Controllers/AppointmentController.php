@@ -55,7 +55,9 @@ class AppointmentController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $dados = $request->except('_token');
-
+        $id = Auth::guard('patient')->user()->id;
+        $dados['patient_id'] = $id;
+        // dd($dados);
         Appointment::create($dados);
 
         return redirect('/appointments');

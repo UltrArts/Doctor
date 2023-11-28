@@ -11,11 +11,11 @@
         @csrf 
         <div class="mb-3 col-lg-7 mx-auto">
             <label for="data" class="form-label">Data:</label>
-            <input type="text" class="form-control" id="data" name="data" placeholder="Data:" required>
-        </div>
+            <input type="date" class="form-control" id="data" name="data" placeholder="Data:" required>
+        </div>~
         <div class="mb-3 col-lg-7 mx-auto">
             <label for="hora" class="form-label">Hora:</label>
-            <input type="text" class="form-control" id="hora" name="hora" placeholder="Hora:" required>
+            <input type="time" class="form-control" id="hora" name="hora" placeholder="Hora:" required>
         </div>
         <div class="mb-3 col-lg-7 mx-auto">
             <label for="clinic_id" class="form-label">Clínica:</label>

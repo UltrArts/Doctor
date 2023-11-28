@@ -26,12 +26,12 @@
             <input type="text" class="form-control" id="dataDeNascimento" name="dataDeNascimento" placeholder="Digite sua data de nascimento:" required>
         </div>
         <div class="col-lg-7 mx-auto mb-3">
-            <label for="rg" class="form-label">RG:</label>
-            <input type="text" class="form-control" id="rg" name="rg" placeholder="Digite seu RG:" required>
+            <label for="rg" class="form-label">BI:</label>
+            <input type="text" class="form-control" id="rg" name="rg" placeholder="Digite seu BI:" required>
         </div>
         <div class="col-lg-7 mx-auto mb-3">
-            <label for="cpf" class="form-label">CPF:</label>
-            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu CPF:" required>
+            <label for="cpf" class="form-label">NUIT:</label>
+            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu NUIT:" required>
         </div>
         <div class="col-lg-7 mx-auto mb-3">
             <label for="telefone" class="form-label"><Table>Telefone:</Table></label>

@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [SiteController::class, 'index'])->name('index');
 
 
+
 Route::get('/patients/create', [PatientController::class, 'create'])->name('patients.create');
 Route::post('/patients', [PatientController::class, 'store'])->name('patients.store');
 Route::get('/patients/login', [PatientController::class, 'login'])->name('patients.login.form');
